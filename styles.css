@@ -76,3 +76,39 @@
     margin: 40px 0px;
 
 }
+
+/* About Me Section */
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    color: #492F10;
+}
+
+#pic{
+    display: flex;
+}
+
+#pic img{
+    width: 575px;
+    height: 400px;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    color: #7D5A50;
+}
+
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #DF5E5E;
+}
+.paraspace {
+    line-height: 2.5;
+}
