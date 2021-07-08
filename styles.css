@@ -74,8 +74,8 @@
     font-size: 3rem;
     text-align:center;
     margin: 40px 0px;
-
 }
+
 
 /* About Me Section */
 #about{
@@ -111,4 +111,27 @@
 }
 .paraspace {
     line-height: 2.5;
+}
+
+/* previous projects */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(226, 179, 179);
+    color: #492F10;
+    align-items: center;
+    padding: 20px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
 }
