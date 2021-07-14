@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-html{
+/* html{
     scroll-behavior: smooth;
-}
+} */
 /* Navbar */
 .navbar{
     display: flex;
@@ -15,6 +15,7 @@ html{
     background-color: rgb(226, 179, 179);
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .navbar ul{
@@ -46,6 +47,7 @@ html{
 #home{
     display: flex;
     flex-direction: column;
+    background-color: rgb(226, 179, 179,0.5);
     height: 840px;
     justify-content: center;
     align-items: center;
@@ -61,7 +63,7 @@ html{
     height: 900px;
     width: 100%;
     z-index: -1;
-    opacity: .8;
+    opacity: 0.8;
 }
 
 .main{
@@ -167,7 +169,8 @@ html{
 #skills{
     display: flex;
     flex-direction: column;
-    padding: 20px
+    padding: 20px;
+    color: #492F10;
 }
 
 .row{
@@ -200,6 +203,13 @@ html{
 }
 
 /* Contact Me */
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb(226, 179, 179);
+    color: #492F10;
+}
 .contact_container{
     row-gap: 3rem;
 }
@@ -211,12 +221,12 @@ html{
 
 .contact_icon{
     font-size: 2rem;
-    color: rgb(226, 179, 179);
+    color: #492F10;
     margin-right: var(--mb-0-75);
 }
 
 .contact_title{
-    font-size: 1rem;
+    /* font-size: 1rem; */
     font-weight: var(--font-medium);
 }
 

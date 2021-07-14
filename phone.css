@@ -1,0 +1,50 @@
+/* Home */
+#home{
+    height: 820px;
+}
+
+.headings{
+    font-size: 1.7rem;
+}
+
+/* About */
+#pic img{
+    width: 300px;
+    height: 175px;
+}
+
+#intro h2{
+    font-size: 1.5rem;
+}
+
+/* Previous Projects */
+.gallery img{
+    width:350px;
+    height:150px;
+    margin: 10px;
+}
+
+
+.imageContainer {
+    width:350px;
+    height:150px;
+    margin: 10px;
+    background-image: url(project.jpg);
+}
+
+
+.container_text{
+    padding: 30px;
+    color:  #72147E;
+    font-family: century;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container_para{
+    padding: 10px;
+    color: black;
+    font-family: century;
+    text-align: center;
+}
+
