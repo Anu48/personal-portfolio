@@ -17,7 +17,7 @@ const projects = [
     },
     {
         id: 3,
-        title: "Personal Website (Archived)",
+        title: "Old Personal Website",
         description: "An old version of my website, which was seen as a introduction to web development",
         tags: ["HTML", "CSS"], // add the tools use,
         githubUrl: "https://github.com/Anu48/personalWebsiteArchived"
