@@ -1,7 +1,6 @@
 {
   "name": "personal-website",
   "private": true,
-  "homepage": "https://Anu48.github.io/personal-portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
