@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import { HashLink } from "react-router-hash-link";
 
 const navItems = [
   { name: "Home", href: "#hero" },
@@ -29,25 +30,25 @@ export const Navbar = () => {
       )}
     >
       <div className="container flex items-center justify-between">
-        <a
-          href="#hero"
+        <HashLink
+          to="#hero"
           className="text-xl font-bold text-primary flex items-center"
         >
           <span className="relative z-10">
             <span className="text-glow text-foreground"> Anoushka Shetty</span>{" "}
             Personal Website
           </span>
-        </a>
+        </HashLink>
         {/* Desktop */}
         <div className="hidden md:flex space-x-8">
           {navItems.map((item, key) => (
-            <a
+            <HashLink
               key={key}
-              href={item.href}
+              to={item.href}
               className="text-foreground/80 hover:text-primary transition-colors duration-300"
             >
               {item.name}
-            </a>
+            </HashLink>
           ))}
         </div>
 
@@ -71,14 +72,14 @@ export const Navbar = () => {
         >
           <div className="flex flex-col space-y-8 text-xl">
             {navItems.map((item, key) => (
-              <a
+              <HashLink
                 key={key}
-                href={item.href}
+                to={item.href}
                 className="text-foreground/80 hover:text-primary transition-colors duration-300"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}
-              </a>
+              </HashLink>
             ))}
           </div>
         </div>

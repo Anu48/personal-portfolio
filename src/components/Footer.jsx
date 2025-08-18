@@ -1,4 +1,5 @@
 import { ArrowUp } from "lucide-react";
+import { HashLink } from "react-router-hash-link";
 
 export const Footer = () => {
   return (
@@ -7,17 +8,17 @@ export const Footer = () => {
         anu48.github.io - {new Date().getFullYear()}
         <br />
         Special thanks to the following template{" "}
-        <a href="https://www.youtube.com/watch?v=ifOJ0R5UQOc" className="text-primary">
+        <a href="https://www.youtube.com/watch?v=ifOJ0R5UQOc" target="_blank" className="text-primary">
           here
         </a>
       </p>
 
-      <a
-        href="#hero"
+      <HashLink
+        to="#hero"
         className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors"
       >
         <ArrowUp size={20} />
-      </a>
+      </HashLink>
     </footer>
   );
 };

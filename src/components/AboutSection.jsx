@@ -1,4 +1,5 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Briefcase, Code, Hash, User } from "lucide-react";
+import { HashLink } from "react-router-hash-link";
 
 export const AboutSection = () => {
   return (
@@ -27,9 +28,9 @@ export const AboutSection = () => {
               solving, communication and teamwork{" "}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="magic-button">
+              <HashLink to="#contact" className="magic-button">
                 Get In Touch
-              </a>
+              </HashLink>
             </div>
           </div>
           {/* <div className="grid grid-cols-1 gap-6">
